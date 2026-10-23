@@ -1,7 +1,7 @@
 # Jihwan Oh
 
-Junior developer focused on AI automation. I build it so that a failure is
-reported, a repeat does nothing twice, and a wrong target is refused.
+Junior full-stack developer who builds AI automation. I build it so that a
+failure is reported, a repeat does nothing twice, and a wrong target is refused.
 
 ## Work
 
@@ -30,4 +30,4 @@ avoid double-spends and deadlocks. In development.
 
 Automated tests for FarmDelve, starting with concurrent upgrade requests.
 
-[LinkedIn](https://www.linkedin.com/in/jihwan-oh-dev/)
+[LinkedIn](https://www.linkedin.com/in/jihwan-oh-dev/) · yd30421@gmail.com
