@@ -1,7 +1,6 @@
 # Jihwan Oh
 
-Junior full-stack developer who builds AI automation. I build it so that a
-failure is reported, a repeat does nothing twice, and a wrong target is refused.
+Junior full-stack developer who automates real workflows with Claude Code, shipping a live site and editor tooling for a 70K-follower magazine.
 
 ## Work
 
