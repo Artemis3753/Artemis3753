@@ -14,10 +14,17 @@ and destructive actions need a token and a second confirmation.
 **[Trend Portal](https://github.com/Artemis3753/trendportal-newsletter#automation-with-claude-code)**
 
 A live site and newsletter for a client's trend magazine ([trendportal.kr](https://trendportal.kr)).
-Transis (트란시스) is the assistant behind it, three Claude Code routines for
-the schedule, a trend feed and card-news drafts. Reminders go out through a
-send-only account whose script refuses any address off an allowlist, and a
-repeat send is refused as a duplicate.
+Transis (트란시스) is the assistant behind it, with three jobs: a daily schedule,
+a trend feed and card-news drafts, each run by a Claude Code routine. Reminders
+go out through a send-only account whose script refuses any address off an
+allowlist, and a repeat send is refused as a duplicate.
+[How it is built](https://github.com/Artemis3753/trendportal-newsletter/blob/main/docs/TRANSIS.md)
+
+<a href="https://github.com/Artemis3753/trendportal-newsletter/blob/main/docs/TRANSIS.md">
+  <img src="https://raw.githubusercontent.com/Artemis3753/trendportal-newsletter/main/docs/img/transis-schedule-email.png" width="420" alt="The Transis morning reminder email, built from sample appointments. UI text translated from Korean.">
+</a>
+
+<sub>The morning reminder email, from sample data. The shipped email is in Korean.</sub>
 
 **[FarmDelve](https://github.com/Artemis3753/farmdelve)**
 
@@ -25,8 +32,8 @@ A single-player farming and gear-upgrade game on Node, Express and PostgreSQL.
 Every write runs in one transaction with row locks taken in one fixed order, to
 avoid double-spends and deadlocks. In development.
 
-## Next
+## Learning
 
-Automated tests for FarmDelve, starting with concurrent upgrade requests.
+Automated testing with Vitest.
 
 [LinkedIn](https://www.linkedin.com/in/jihwan-oh-dev/) · yd30421@gmail.com
