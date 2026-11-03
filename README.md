@@ -32,6 +32,12 @@ A single-player farming and gear-upgrade game on Node, Express and PostgreSQL.
 Every write runs in one transaction with row locks taken in one fixed order, to
 avoid double-spends and deadlocks. In development.
 
+## How I work with Claude Code
+
+- **Project rules:** [CLAUDE.md in Minecraft Server Companion](https://github.com/Artemis3753/minecraft-companion-Jihwan#how-i-work-with-claude-code): no credentials in the repo, destructive actions confirmed, no whole features unprompted.
+- **Routine instructions and their limits:** [transis/PROMPT.md](https://github.com/Artemis3753/trendportal-newsletter/blob/main/transis/PROMPT.md) and [docs/TRANSIS.md](https://github.com/Artemis3753/trendportal-newsletter/blob/main/docs/TRANSIS.md), which list what code enforces and what rests only on the instructions.
+- No hooks or custom commands.
+
 ## Learning
 
 Automated testing with Vitest.
